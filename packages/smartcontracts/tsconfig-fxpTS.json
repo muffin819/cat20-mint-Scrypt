@@ -1,0 +1,20 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "src/contracts/token/FXPBuyGuard.ts",
+    "src/contracts/token/FXPSellGuard.ts"
+  ],
+  "compilerOptions": {
+    "noEmit": true,
+    "experimentalDecorators": true,
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "plugins": [
+      {
+        "transform": "/Users/utxodetective/proj/a21/cat-token-box/node_modules/scrypt-ts-transpiler/dist/index.js",
+        "transformProgram": true,
+        "outDir": "artifacts"
+      }
+    ]
+  }
+}
