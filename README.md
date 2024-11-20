@@ -1,4 +1,5 @@
 # CAT Token Box
+![cat](https://github.com/user-attachments/assets/133a4bdd-a6a7-4670-8214-712b1527caf0)
 
 A reference implementation of the `Covenant Attested Token (CAT)` protocol on BTC signet and Fractal, where `OP_CAT` is re-activated.
 
