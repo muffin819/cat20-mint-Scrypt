@@ -1,17 +1,17 @@
 
-Fractal-Cat20-sCrypt-smart-contract
+## Fractal-Cat20-sCrypt-smart-contract
 The smart contract for the Cat Protocol utilizes sCrypt to implement cat20 minting service on the Fractal Bitcoin network. It is basic of a launchpad for the Fractal CAT20 token, allowing users to mint CAT20 tokens.
  
-Overview
+## Overview
 The Fractal-Cat20-sCrypt-smart-contract project leverages the Fractal Bitcoin network's capabilities to implement a smart contract for the Cat Protocol using sCrypt. This project enables users to mint CAT20 tokens. The implementation takes advantage of the OP_CAT opcode to enhance Bitcoin's functionality, providing features akin to those seen in smart contracts on other blockchain platforms.
 
-Features
+## Features
 Minting of CAT20 Tokens: Utilize the sCrypt-based smart contract to mint new CAT20 tokens on the Fractal Bitcoin network.
 Integration of OP_CAT: The smart contract makes use of the OP_CAT opcode to improve contract programmability and execution.
 
-Contract Structure
-Mint Function: Implements the logic to mint new CAT20 tokens by verifying appropriate proofs and executing the creation script.
-Transfer Function: Handles the transfer of existing tokens between users, ensuring compliance with the protocol's specified rules.
+## Contract Structure
+### Mint Function: Implements the logic to mint new CAT20 tokens by verifying appropriate proofs and executing the creation script.
+### Transfer Function: Handles the transfer of existing tokens between users, ensuring compliance with the protocol's specified rules.
 Below is a simplified version of the sCrypt contract code structure:
 
 public mint(
@@ -145,10 +145,10 @@ public mint(
         assert(hashOutputs == shPreimage.hashOutputs, 'hashOutputs mismatch')
     }
 
-Developer Notes
+## Developer Notes
 Ensure that you have the appropriate configuration for connecting to the Fractal Bitcoin network.
 Review the sCrypt smart contract thoroughly to understand its security assumptions and execution model.
 
-Contact Info
-Twitter: https://x.com/ProDogeLover/
-Telegram: https://t.me/dogewhiz/
+## Contact Info
+### Twitter: https://x.com/ProDogeLover/
+### Telegram: https://t.me/dogewhiz/
